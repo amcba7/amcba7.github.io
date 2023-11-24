@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url("https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Frosch_Bokeh_2_Axel_F.jpg");
+    background-size: cover;
+}
+/* footer css start */
+footer {
+    height: 10vh;
+    background-color: black;
+    color : rgb(190, 179, 179);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer a {
+    color : rgb(186, 178, 178);
+    text-decoration: none;
+}
+/* footer css end */
+/* header css start */
+header {
+    height: 10vh;
+    background-color: rgba(0,0,0,.25);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+header svg {
+    width:10%;
+    height: 30%;
+}
+menu {
+    width: 10%;
+    display: flex;
+    justify-content: space-evenly;
+}
+header li {
+    display: inline-block;
+    color : white;  
+    padding : 10px;
+}
+header li:nth-child(n+2) {
+    background-color: white;
+    color : black;
+    border-radius: 4px;
+}
+header form {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    width: 60%;
+    background-color: white;
+    opacity: 0.5;
+    border-radius: 4px;
+    height: 50%;
+    padding: 3px;
+}
+header input {
+    border: none;
+    background-color: unset;
+    width: 100%;
+}
+header input:focus {
+    outline: none;
+}
+header button {
+    border : none;
+    background-color: unset;
+}
+/* header css end */
+/* main css start */
+main {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    height: 80vh;
+}
+section {
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    font-size:20px;
+    font-weight: 530;
+    text-align: center;
+}
+section h1 {
+    font-size: 50px;
+    margin:15px;
+}
+section h3 {
+    font-size: 20px;
+    margin:15px;
+}
+section a {
+    color : black;
+    background-color: white;
+    margin: 15px;
+    padding:18px;
+    text-decoration: none;
+    font-size: 24px;
+    justify-content: center;
+    border-radius: 4px;
+    font-weight:550;
+}
+/* main css end */
