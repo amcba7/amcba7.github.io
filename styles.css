@@ -5,10 +5,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     background-image:url("https://combo.staticflickr.com/ap/build/images/sohp/2020-top-25/Frosch_Bokeh_2_Axel_F.jpg");
     background-size: cover;
+    display: flex;
+    flex-direction: column;
 }
 /* footer css start */
 footer {
-    height: 10vh;
     background-color: black;
     color : rgb(190, 179, 179);
     display: flex;
@@ -33,7 +34,6 @@ header svg {
     height: 30%;
 }
 menu {
-    width: 10%;
     display: flex;
     justify-content: space-evenly;
 }
@@ -110,3 +110,16 @@ section a {
     font-weight:550;
 }
 /* main css end */
+
+/* mobile view start */
+@media screen  and (max-width:800px){
+    body {
+        display:flex;
+        flex-direction: column;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+}
+/* mobile view end */
