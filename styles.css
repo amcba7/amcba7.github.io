@@ -15,6 +15,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-around;
+    height: 10vh;
 }
 footer a {
     color : rgb(186, 178, 178);
